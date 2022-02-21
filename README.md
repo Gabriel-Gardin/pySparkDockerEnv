@@ -1,13 +1,12 @@
-# Teste de seleção de Engenheiro de Dados
+# Template de uma aplicação distribuida pySPark
 
-O objetivo do teste é realizar as etapas envolvidas na construção de uma solução Big Data, em um cenário de ingestão, curadoria, processamento e consumo de dados.
 
 ## Requerimentos
 
 1. Docker
 2. Docker Compose
 
-Para simular um ambiente real com um cluster spark distribuído, foi utilizado imagens docker e docker-compose para criar uma aplicação distribuída contendo uma IDE JupyterLab, Spark master node e dois Spark Worker nodes.
+Template para simular um ambiente real de processamento de dados com um cluster spark distribuído. Utilizando imagens docker e docker-compose para criar uma aplicação distribuída contendo uma IDE JupyterLab, Spark master node e dois Spark Worker nodes.
 
 ## Reproduzindo
 
@@ -37,19 +36,6 @@ Os nodes da aplicação podem ser acessados pelos links:
 - Spark master: [localhost:8080]();
 - Spark worker I: [localhost:8081]();
 - Spark worker II: [localhost:8082]();
-
-## Executando as atividades
-
-As 4 atividades estão separadas em notebooks separados, sendo eles:
-
-1. volumes/notebooks/ingestion.ipynb
-2. volumes/notebooks/normalization.ipynb
-3. volumes/notebooks/transformation.ipynb
-4. volumes/notebooks/using_clean_data.ipynb
-
-## Testes
-
-Work in progress
 
 ## Referências
 
